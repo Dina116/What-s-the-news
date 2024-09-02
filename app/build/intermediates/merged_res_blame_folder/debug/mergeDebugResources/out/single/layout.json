@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.training.whatsthenews.app-mergeDebugResources-50:/layout/fragment_home.xml",
+        "source": "com.training.whatsthenews.app-main-53:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.training.whatsthenews.app-mergeDebugResources-50:/layout/fragment_login.xml",
+        "source": "com.training.whatsthenews.app-main-53:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.training.whatsthenews.app-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "com.training.whatsthenews.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.training.whatsthenews.app-mergeDebugResources-50:/layout/fragment_signup.xml",
+        "source": "com.training.whatsthenews.app-main-53:/layout/fragment_signup.xml"
+    },
+    {
+        "merged": "com.training.whatsthenews.app-mergeDebugResources-50:/layout/fragment_forgot_password.xml",
+        "source": "com.training.whatsthenews.app-main-53:/layout/fragment_forgot_password.xml"
+    }
+]

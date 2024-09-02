@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">What`s the news</string>
+    <string name="gcm_defaultSenderId" translatable="false">61045893516</string>
+    <string name="google_api_key" translatable="false">AIzaSyAwMTqit_zr6X3EgGv8KzF_tNMUbJuiv1k</string>
+    <string name="google_app_id" translatable="false">1:61045893516:android:a0bf27972a64731a02cea9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAwMTqit_zr6X3EgGv8KzF_tNMUbJuiv1k</string>
+    <string name="google_storage_bucket" translatable="false">what-s-the-news-8afc6.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">what-s-the-news-8afc6</string>
+    <style name="Base.Theme.WhatsTheNews" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="LoginTextInputInnerFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="LoginTextInputOuterFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+    <style name="TVLoginAndSignup" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="Theme.WhatsTheNews" parent="Base.Theme.WhatsTheNews"/>
+</resources>

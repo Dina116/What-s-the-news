@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">61045893516</string>
+    <string name="google_api_key" translatable="false">AIzaSyAwMTqit_zr6X3EgGv8KzF_tNMUbJuiv1k</string>
+    <string name="google_app_id" translatable="false">1:61045893516:android:a0bf27972a64731a02cea9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAwMTqit_zr6X3EgGv8KzF_tNMUbJuiv1k</string>
+    <string name="google_storage_bucket" translatable="false">what-s-the-news-8afc6.appspot.com</string>
+    <string name="project_id" translatable="false">what-s-the-news-8afc6</string>
+</resources>
