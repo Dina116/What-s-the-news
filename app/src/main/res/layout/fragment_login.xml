@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@drawable/screen"
+
     tools:context=".LoginFragment">
 
     <TextView
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:id="@+id/tv_welcome"
         style="@style/TVLoginAndSignup"
         android:layout_width="wrap_content"

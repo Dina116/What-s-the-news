@@ -2,12 +2,14 @@ package com.training.whatsthenews
 
 import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
 import android.widget.Toast
+import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
 import com.training.whatsthenews.databinding.FragmentLoginBinding
@@ -34,9 +36,11 @@ class SignupFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+
         // Apply 2D animations to views
-        val bounceAnim = AnimationUtils.loadAnimation(context, R.anim.bounce)
-        val fadeInAnim = AnimationUtils.loadAnimation(context, R.anim.fade)
+        val bounceAnim = AnimationUtils.loadAnimation(context, R.anim.scale)
+        val fadeInAnim = AnimationUtils.loadAnimation(context, R.anim.alpha)
 
         binding.tvWelcome.startAnimation(bounceAnim)
         binding.buttonSignup.startAnimation(fadeInAnim)
@@ -109,7 +113,16 @@ class SignupFragment : Fragment() {
             }
 
         }
+
+        binding.motionLayout.progress = 0f
+        binding.motionLayout.transitionToEnd()
+
+
+
     }
+
+
+
 
     private fun isValidPassword(password: String): Boolean {
         return password.length >= 8 &&
