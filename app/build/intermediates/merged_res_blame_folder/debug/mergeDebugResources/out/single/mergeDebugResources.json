@@ -1,106 +1,190 @@
 [
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/navigation_navigation.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/navigation/navigation.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\navigation_navigation.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\navigation\\navigation.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/xml_fragment_signup_scene.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/xml/fragment_signup_scene.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_login.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/xml_data_extraction_rules.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\anim_enter_anim.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\anim\\enter_anim.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_health.jpeg.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\health.jpeg"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/layout_fragment_login.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/layout/fragment_login.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_tech.jpg.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\tech.jpg"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_screen.png.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\screen.png"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/anim_fade.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/anim/fade.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\anim_pop_exit_anim.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\anim\\pop_exit_anim.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/anim_bounce.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/anim/bounce.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\layout_fragment_signup.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_signup.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/layout_fragment_forgot_password.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/layout/fragment_forgot_password.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\menu\\menu.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/xml_backup_rules.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_business.jpg.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\business.jpg"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/drawable_screen.png.flat",
-        "source": "com.training.whatsthenews.app-main-53:/drawable/screen.png"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\xml_fragment_signup_scene2.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\xml\\fragment_signup_scene2.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\layout_app_bar.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\app_bar.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/layout_fragment_home.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\layout_category_list_item.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\category_list_item.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\anim_exit_anim.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\anim\\exit_anim.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/layout_fragment_signup.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/layout/fragment_signup.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_favorite.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\favorite.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\layout_fragment_forgot_password.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_forgot_password.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/layout_activity_main.xml.flat",
-        "source": "com.training.whatsthenews.app-main-53:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\anim_pop_enter_anim.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\anim\\pop_enter_anim.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-debug-51:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.training.whatsthenews.app-main-53:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_share.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\layout_fragment_favorite.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_sports.jpg.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\sports.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\layout_article_list_item.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\article_list_item.xml"
+    },
+    {
+        "merged": "com.training.whatsthenews.app-debug-57:/layout_category_list_item.xml.flat",
+        "source": "com.training.whatsthenews.app-main-59:/layout/category_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_broken_image.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\broken_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\anim_alpha.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\anim\\alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\drawable_favorite_border.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\drawable\\favorite_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\xml_fragment_signup_scene.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\xml\\fragment_signup_scene.xml"
+    },
+    {
+        "merged": "com.training.whatsthenews.app-debug-57:/layout_fragment_home.xml.flat",
+        "source": "com.training.whatsthenews.app-main-59:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\anim_scale.xml.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\anim\\scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-debug-57:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\mipmap-xxhdpi\\ic_launcher.webp"
     }
 ]

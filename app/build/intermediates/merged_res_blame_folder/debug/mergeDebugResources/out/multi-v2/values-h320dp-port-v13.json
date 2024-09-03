@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.training.whatsthenews.app-mergeDebugResources-49:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.training.whatsthenews.app-mergeDebugResources-55:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Abdo Omar\\.gradle\\caches\\transforms-4\\939ba95ebac23343a36a0a1b3b80bb58\\transformed\\material-1.12.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",

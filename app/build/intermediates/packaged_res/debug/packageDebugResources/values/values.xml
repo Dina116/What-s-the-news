@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#BFE5EE</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">What`s the news</string>
     <string name="gcm_defaultSenderId" translatable="false">61045893516</string>
@@ -28,6 +29,11 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">15dp</item>
         <item name="android:layout_marginBottom">15dp</item>
+    </style>
+    <style name="MyTv">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">20sp</item>
     </style>
     <style name="TVLoginAndSignup" parent="Widget.AppCompat.TextView">
         <item name="android:textColor">@color/white</item>

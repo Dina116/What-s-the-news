@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     id("androidx.navigation.safeargs.kotlin")
     alias(libs.plugins.google.gms.google.services)
+
 }
 
 android {
@@ -53,11 +54,22 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
     //firebase
     implementation ("com.google.firebase:firebase-auth:21.0.3")
-
-        //navigation
+    //Fire store
+    implementation("com.google.firebase:firebase-firestore")
+    //navigation
     implementation("androidx.navigation:navigation-fragment:2.7.7")
     implementation("androidx.navigation:navigation-ui:2.7.7")
+    //retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    //gson converter
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    //Glide
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    //swipe refresh layout
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
+
 }
 

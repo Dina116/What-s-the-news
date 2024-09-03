@@ -38,6 +38,9 @@ public final class FragmentSignupBinding implements ViewBinding {
   public final TextInputLayout emailLayout;
 
   @NonNull
+  public final MotionLayout motionLayout;
+
+  @NonNull
   public final TextInputEditText passET;
 
   @NonNull
@@ -52,14 +55,16 @@ public final class FragmentSignupBinding implements ViewBinding {
   private FragmentSignupBinding(@NonNull MotionLayout rootView, @NonNull Button buttonSignup,
       @NonNull TextInputEditText confirmPassEt, @NonNull TextInputLayout confirmPasswordLayout,
       @NonNull TextInputEditText emailEt, @NonNull TextInputLayout emailLayout,
-      @NonNull TextInputEditText passET, @NonNull TextInputLayout passwordLayout,
-      @NonNull TextView tvHaveAccount, @NonNull TextView tvWelcome) {
+      @NonNull MotionLayout motionLayout, @NonNull TextInputEditText passET,
+      @NonNull TextInputLayout passwordLayout, @NonNull TextView tvHaveAccount,
+      @NonNull TextView tvWelcome) {
     this.rootView = rootView;
     this.buttonSignup = buttonSignup;
     this.confirmPassEt = confirmPassEt;
     this.confirmPasswordLayout = confirmPasswordLayout;
     this.emailEt = emailEt;
     this.emailLayout = emailLayout;
+    this.motionLayout = motionLayout;
     this.passET = passET;
     this.passwordLayout = passwordLayout;
     this.tvHaveAccount = tvHaveAccount;
@@ -123,6 +128,8 @@ public final class FragmentSignupBinding implements ViewBinding {
         break missingId;
       }
 
+      MotionLayout motionLayout = (MotionLayout) rootView;
+
       id = R.id.passET;
       TextInputEditText passET = ViewBindings.findChildViewById(rootView, id);
       if (passET == null) {
@@ -148,8 +155,8 @@ public final class FragmentSignupBinding implements ViewBinding {
       }
 
       return new FragmentSignupBinding((MotionLayout) rootView, buttonSignup, confirmPassEt,
-          confirmPasswordLayout, emailEt, emailLayout, passET, passwordLayout, tvHaveAccount,
-          tvWelcome);
+          confirmPasswordLayout, emailEt, emailLayout, motionLayout, passET, passwordLayout,
+          tvHaveAccount, tvWelcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
