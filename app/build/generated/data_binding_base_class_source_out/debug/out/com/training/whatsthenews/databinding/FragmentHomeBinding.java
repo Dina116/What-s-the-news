@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -28,17 +29,21 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final RecyclerView newsRv;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final SwipeRefreshLayout swipeRefresh;
 
   @NonNull
   public final TextView textView1;
 
   private FragmentHomeBinding(@NonNull LinearLayout rootView, @NonNull RecyclerView categoryRv,
-      @NonNull RecyclerView newsRv, @NonNull SwipeRefreshLayout swipeRefresh,
-      @NonNull TextView textView1) {
+      @NonNull RecyclerView newsRv, @NonNull ProgressBar progressBar,
+      @NonNull SwipeRefreshLayout swipeRefresh, @NonNull TextView textView1) {
     this.rootView = rootView;
     this.categoryRv = categoryRv;
     this.newsRv = newsRv;
+    this.progressBar = progressBar;
     this.swipeRefresh = swipeRefresh;
     this.textView1 = textView1;
   }
@@ -82,6 +87,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progress_bar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.swipe_refresh;
       SwipeRefreshLayout swipeRefresh = ViewBindings.findChildViewById(rootView, id);
       if (swipeRefresh == null) {
@@ -94,8 +105,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((LinearLayout) rootView, categoryRv, newsRv, swipeRefresh,
-          textView1);
+      return new FragmentHomeBinding((LinearLayout) rootView, categoryRv, newsRv, progressBar,
+          swipeRefresh, textView1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

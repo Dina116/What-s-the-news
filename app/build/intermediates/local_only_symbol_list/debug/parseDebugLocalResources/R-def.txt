@@ -7,8 +7,10 @@ anim pop_enter_anim
 anim pop_exit_anim
 anim scale
 color black
+color gray
 color ic_launcher_background
 color white
+drawable back
 drawable broken_image
 drawable business
 drawable favorite
@@ -20,6 +22,7 @@ drawable screen
 drawable share
 drawable sports
 drawable tech
+id action_favoriteFragment_to_homeFragment
 id action_forgotPasswordFragment_to_loginFragment
 id action_homeFragment_to_favoriteFragment
 id action_homeFragment_to_loginFragment
@@ -31,6 +34,7 @@ id app_tool_bar
 id article_container
 id article_iv
 id article_text
+id back_btn
 id btn_forgot_pass
 id btn_login
 id btn_sendemail
@@ -41,11 +45,13 @@ id category_name_tv
 id category_rv
 id confirmPassEt
 id confirmPasswordLayout
+id delete_favorites
 id emailEt
 id emailLayout
 id end
 id favoriteFragment
 id favorite_iv
+id favorite_rv
 id favorite_view
 id favorites_action_bar
 id favorites_menu_list
@@ -61,6 +67,7 @@ id navigation
 id news_rv
 id passET
 id passwordLayout
+id progress_bar
 id settings
 id share_fab
 id signupFragment
@@ -77,11 +84,13 @@ layout activity_main
 layout app_bar
 layout article_list_item
 layout category_list_item
+layout favorite_list_item
 layout fragment_favorite
 layout fragment_forgot_password
 layout fragment_home
 layout fragment_login
 layout fragment_signup
+menu favorite_menu
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
@@ -101,6 +110,7 @@ style LoginTextInputOuterFieldStyle
 style MyTv
 style TVLoginAndSignup
 style Theme.WhatsTheNews
+style my_tv
 xml backup_rules
 xml data_extraction_rules
 xml fragment_signup_scene

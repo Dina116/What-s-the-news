@@ -6,11 +6,9 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@drawable/screen"
-
     tools:context=".LoginFragment">
 
     <TextView
-        android:textSize="20sp"
         android:id="@+id/tv_welcome"
         style="@style/TVLoginAndSignup"
         android:layout_width="wrap_content"
@@ -18,11 +16,9 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="70dp"
         android:text="WELCOME To LOGIN"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
-
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailLayout"

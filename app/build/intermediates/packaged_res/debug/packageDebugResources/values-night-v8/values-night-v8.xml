@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="gray">#121212</color>
     <style name="Base.Theme.WhatsTheNews" parent="Theme.Material3.DayNight.NoActionBar">
         
+        <item name="colorPrimary">#121212</item>
+        <item name="colorPrimaryVariant">#121212</item>
+        <item name="colorSecondary">#0092E0</item>
+
         
+    </style>
+    <style name="my_tv">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28sp</item>
     </style>
 </resources>

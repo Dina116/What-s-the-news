@@ -1495,6 +1495,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
@@ -3064,6 +3065,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
 drawable broken_image
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3267,6 +3269,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_favoriteFragment_to_homeFragment
 id action_forgotPasswordFragment_to_loginFragment
 id action_homeFragment_to_favoriteFragment
 id action_homeFragment_to_loginFragment
@@ -3307,6 +3310,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_btn
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3378,6 +3382,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete_favorites
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3424,6 +3429,7 @@ id expanded_menu
 id fade
 id favoriteFragment
 id favorite_iv
+id favorite_rv
 id favorite_view
 id favorites_action_bar
 id favorites_menu_list
@@ -3616,6 +3622,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
@@ -3915,6 +3922,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout favorite_list_item
 layout fragment_favorite
 layout fragment_forgot_password
 layout fragment_home
@@ -3983,6 +3991,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu favorite_menu
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
@@ -5324,6 +5333,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style my_tv
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

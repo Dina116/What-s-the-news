@@ -1,8 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.WhatsTheNews" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.WhatsTheNews" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#A9A9A9</item>
+        <item name="colorSecondary">#2196F3</item>
+        <item name="colorPrimaryVariant">#A9A9A9</item>
     </style>
 
     <style name="Theme.WhatsTheNews" parent="Base.Theme.WhatsTheNews" />
@@ -13,6 +16,7 @@
         <item name="android:layout_marginTop">15dp</item>
         <item name="android:layout_marginBottom">15dp</item>
     </style>
+
     <style name="LoginTextInputInnerFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -22,6 +26,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:singleLine">true</item>
     </style>
+
     <style name="TVLoginAndSignup" parent="Widget.AppCompat.TextView">
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">25sp</item>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.training.whatsthenews.app-mergeDebugResources-55:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.training.whatsthenews.app-mergeDebugResources-59:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Abdo Omar\\.gradle\\caches\\transforms-4\\939ba95ebac23343a36a0a1b3b80bb58\\transformed\\material-1.12.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\Abdo Omar\\.gradle\\caches\\transforms-4\\9ad59e0cb70417fe4444589127e19396\\transformed\\material-1.12.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

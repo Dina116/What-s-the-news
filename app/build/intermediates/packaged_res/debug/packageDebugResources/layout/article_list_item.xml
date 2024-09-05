@@ -31,8 +31,8 @@
 
         <View
             android:id="@+id/favorite_view"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="12dp"
             android:alpha=".1"
@@ -42,8 +42,8 @@
 
         <ImageView
             android:id="@+id/favorite_iv"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:src="@drawable/favorite_border"
             app:layout_constraintBottom_toBottomOf="@id/favorite_view"
             app:layout_constraintEnd_toEndOf="@id/favorite_view" />
@@ -54,12 +54,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-            android:alpha=".7"
+            android:alpha="0.7"
             android:backgroundTint="@color/white"
-            android:src="@drawable/share"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/share"
+            app:tint="?attr/colorSecondary" />
 
         <TextView
             android:id="@+id/article_text"

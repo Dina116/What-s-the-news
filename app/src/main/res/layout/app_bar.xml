@@ -5,8 +5,13 @@
     android:id="@+id/app_tool_bar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:background="@color/design_default_color_primary"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    android:background="@color/gray">
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back" />
 
     <TextView
         android:id="@+id/toolbar_title"

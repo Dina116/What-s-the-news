@@ -1,46 +1,54 @@
 [
     {
-        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-56:\\layout\\fragment_signup.xml",
-        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_signup.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\category_list_item.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\category_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-56:\\layout\\category_list_item.xml",
-        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\category_list_item.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-56:\\layout\\fragment_favorite.xml",
-        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_favorite.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\app_bar.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\app_bar.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-mergeDebugResources-56:/layout/category_list_item.xml",
-        "source": "com.training.whatsthenews.app-main-59:/layout/category_list_item.xml"
+        "merged": "com.training.whatsthenews.app-mergeDebugResources-60:/layout/fragment_favorite.xml",
+        "source": "com.training.whatsthenews.app-main-63:/layout/fragment_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-56:\\layout\\fragment_login.xml",
-        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_login.xml"
+        "merged": "com.training.whatsthenews.app-mergeDebugResources-60:/layout/article_list_item.xml",
+        "source": "com.training.whatsthenews.app-main-63:/layout/article_list_item.xml"
     },
     {
-        "merged": "com.training.whatsthenews.app-mergeDebugResources-56:/layout/fragment_home.xml",
-        "source": "com.training.whatsthenews.app-main-59:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\article_list_item.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\article_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-56:\\layout\\article_list_item.xml",
-        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\article_list_item.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\fragment_forgot_password.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\fragment_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-56:\\layout\\app_bar.xml",
-        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\app_bar.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-56:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\activity_main.xml"
+        "merged": "com.training.whatsthenews.app-mergeDebugResources-60:/layout/favorite_list_item.xml",
+        "source": "com.training.whatsthenews.app-main-63:/layout/favorite_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-56:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\fragment_favorite.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\fragment_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-56:\\layout\\fragment_forgot_password.xml",
-        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-59:\\layout\\fragment_forgot_password.xml"
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\favorite_list_item.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\favorite_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-mergeDebugResources-60:\\layout\\fragment_signup.xml",
+        "source": "C:\\Users\\Abdo Omar\\.gradle\\daemon\\8.7\\com.training.whatsthenews.app-main-63:\\layout\\fragment_signup.xml"
     }
 ]

@@ -4,6 +4,7 @@ package com.training.whatsthenews.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,12 +24,16 @@ public final class AppBarBinding implements ViewBinding {
   public final Toolbar appToolBar;
 
   @NonNull
+  public final ImageView backBtn;
+
+  @NonNull
   public final TextView toolbarTitle;
 
   private AppBarBinding(@NonNull Toolbar rootView, @NonNull Toolbar appToolBar,
-      @NonNull TextView toolbarTitle) {
+      @NonNull ImageView backBtn, @NonNull TextView toolbarTitle) {
     this.rootView = rootView;
     this.appToolBar = appToolBar;
+    this.backBtn = backBtn;
     this.toolbarTitle = toolbarTitle;
   }
 
@@ -61,13 +66,19 @@ public final class AppBarBinding implements ViewBinding {
     missingId: {
       Toolbar appToolBar = (Toolbar) rootView;
 
+      id = R.id.back_btn;
+      ImageView backBtn = ViewBindings.findChildViewById(rootView, id);
+      if (backBtn == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar_title;
       TextView toolbarTitle = ViewBindings.findChildViewById(rootView, id);
       if (toolbarTitle == null) {
         break missingId;
       }
 
-      return new AppBarBinding((Toolbar) rootView, appToolBar, toolbarTitle);
+      return new AppBarBinding((Toolbar) rootView, appToolBar, backBtn, toolbarTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

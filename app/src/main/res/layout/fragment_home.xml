@@ -9,6 +9,7 @@
 
     <include layout="@layout/app_bar" />
 
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/category_rv"
         android:layout_width="wrap_content"
@@ -24,16 +25,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="48dp"
         android:text="Technology News:"
-        android:textColor="@color/black"
-        android:textSize="32sp"/>
+        android:layout_marginEnd="8dp"
+        style="@style/my_tv" />
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp">
+        android:layout_marginEnd="8dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/news_rv"
@@ -41,6 +48,7 @@
             android:layout_height="match_parent"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:listitem="@layout/article_list_item" />
+
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 

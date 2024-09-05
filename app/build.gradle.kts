@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     id("androidx.navigation.safeargs.kotlin")
     alias(libs.plugins.google.gms.google.services)
-
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -70,6 +70,12 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.16.0")
     //swipe refresh layout
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
+    //room database
+    implementation("androidx.room:room-runtime:2.6.1")
+    // To use Kotlin Symbol Processing (KSP)
+   ksp("androidx.room:room-compiler:2.6.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+    implementation ("androidx.room:room-ktx:2.5.0")
 
 }
 

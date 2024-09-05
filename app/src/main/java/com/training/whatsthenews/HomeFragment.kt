@@ -8,14 +8,18 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
+import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.training.whatsthenews.databinding.FragmentHomeBinding
 import retrofit2.Call
@@ -49,6 +53,8 @@ class HomeFragment : Fragment() {
         // Disable default title
         (activity as AppCompatActivity).supportActionBar?.setDisplayShowTitleEnabled(false)
         val title = toolbar.findViewById<TextView>(R.id.toolbar_title)
+        val backBtn = toolbar.findViewById<ImageView>(R.id.back_btn)
+        backBtn.isVisible = false
         title.text = "News/Categories"
 
         // adding menu option and favorite heart
@@ -64,6 +70,7 @@ class HomeFragment : Fragment() {
                 return when (menuItem.itemId) {
                     R.id.logout -> {
                         findNavController().navigate(R.id.action_homeFragment_to_loginFragment)
+
                         true
                     }
 
@@ -111,6 +118,8 @@ class HomeFragment : Fragment() {
                            it.title == "[Removed]"
                        }
                         showNews(articles)
+                        binding.swipeRefresh.isRefreshing = false
+                        binding.progressBar.isVisible = false
                         binding.textView1.text = "Technology News:"
                         Log.d("trace", "Articles: $articles")
                     }
@@ -128,6 +137,8 @@ class HomeFragment : Fragment() {
                             it.title == "[Removed]"
                         }
                         showNews(articles)
+                        binding.swipeRefresh.isRefreshing = false
+                        binding.progressBar.isVisible = false
                         binding.textView1.text = "Health News:"
                         Log.d("trace", "Articles: $articles")
                     }
@@ -145,6 +156,8 @@ class HomeFragment : Fragment() {
                             it.title == "[Removed]"
                         }
                         showNews(articles)
+                        binding.swipeRefresh.isRefreshing = false
+                        binding.progressBar.isVisible = false
                         binding.textView1.text = "Sports News:"
 
                         Log.d("trace", "Articles: $articles")
@@ -163,6 +176,8 @@ class HomeFragment : Fragment() {
                             it.title == "[Removed]"
                         }
                         showNews(articles)
+                        binding.swipeRefresh.isRefreshing = false
+                        binding.progressBar.isVisible = false
                         binding.textView1.text = "Business News:"
 
                         Log.d("trace", "Articles: $articles")
@@ -183,6 +198,7 @@ class HomeFragment : Fragment() {
                     it.title == "[Removed]"
                 }
                 binding.swipeRefresh.isRefreshing = false
+                binding.progressBar.isVisible = false
                 Log.d("trace", "Articles: $articles")
             }
 
