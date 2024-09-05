@@ -1,5 +1,0 @@
-com.training.whatsthenews.test.app-core-1.6.1-0 C:\Users\Abdo Omar\.gradle\caches\transforms-4\419806d665fe19597590694efe1fcc8f\transformed\core-1.6.1\res
-com.training.whatsthenews.test.app-androidTest-1 G:\DEPI\NewsProject\What-s-the-news\app\build\generated\res\resValues\androidTest\debug
-com.training.whatsthenews.test.app-mergeDebugAndroidTestResources-2 G:\DEPI\NewsProject\What-s-the-news\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.training.whatsthenews.test.app-mergeDebugAndroidTestResources-3 G:\DEPI\NewsProject\What-s-the-news\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.training.whatsthenews.test.app-debugAndroidTest-4 G:\DEPI\NewsProject\What-s-the-news\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

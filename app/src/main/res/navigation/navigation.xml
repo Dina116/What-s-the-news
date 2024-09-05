@@ -46,6 +46,9 @@
         <action
             android:id="@+id/action_homeFragment_to_favoriteFragment"
             app:destination="@id/favoriteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_setting"
+            app:destination="@id/setting" />
     </fragment>
     <fragment
         android:id="@+id/forgotPasswordFragment"
@@ -67,4 +70,9 @@
             android:id="@+id/action_favoriteFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <activity
+        android:id="@+id/setting"
+        android:name="com.training.whatsthenews.setting"
+        android:label="activity_setting"
+        tools:layout="@layout/activity_setting" />
 </navigation>

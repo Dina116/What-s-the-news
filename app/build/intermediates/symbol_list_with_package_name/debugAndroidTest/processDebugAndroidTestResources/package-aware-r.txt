@@ -1,3 +1,0 @@
-com.training.whatsthenews.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

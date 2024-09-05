@@ -1,5 +1,6 @@
 package com.training.whatsthenews
 
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -10,16 +11,16 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.training.whatsthenews.databinding.FragmentHomeBinding
 import retrofit2.Call
@@ -27,7 +28,6 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-
 
 class HomeFragment : Fragment() {
 
@@ -57,20 +57,16 @@ class HomeFragment : Fragment() {
         backBtn.isVisible = false
         title.text = "News/Categories"
 
-        // adding menu option and favorite heart
         val menuHost: MenuHost = requireActivity()
         menuHost.addMenuProvider(object : MenuProvider {
             override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
-                // Add menu items
                 menuInflater.inflate(R.menu.menu, menu)
             }
 
-            // Handle the menu selection
             override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
                 return when (menuItem.itemId) {
                     R.id.logout -> {
                         findNavController().navigate(R.id.action_homeFragment_to_loginFragment)
-
                         true
                     }
 
@@ -83,10 +79,11 @@ class HomeFragment : Fragment() {
                         findNavController().navigate(R.id.action_homeFragment_to_favoriteFragment)
                         true
                     }
-                    // for navigation to settings
-//                    R.id.settings -> {
-//                       // findNavController().navigate()
-//                    }
+
+                    R.id.settings -> {
+                        findNavController().navigate(R.id.action_homeFragment_to_setting)
+                        true
+                    }
                     else -> false
                 }
             }
@@ -108,105 +105,73 @@ class HomeFragment : Fragment() {
             .build()
         val c = retrofit.create(NewsCallable::class.java)
         val viewModel = ViewModelProvider(this)[CategoryViewModel::class.java]
+
+        val sharedPref = requireContext().getSharedPreferences("newsAppPref", Context.MODE_PRIVATE)
+        val savedCountry = sharedPref.getString("selectedCountry", "us")
+
+
         viewModel.categoryImageView.observe(viewLifecycleOwner) { it ->
-            when (it) {
-                R.drawable.tech -> c.getTechnoNews().enqueue(object : Callback<News> {
-                    override fun onResponse(p0: Call<News>, p1: Response<News>) {
-                        val news = p1.body()
-                        val articles = news?.articles!!
-                       articles.removeAll {
-                           it.title == "[Removed]"
-                       }
-                        showNews(articles)
-                        binding.swipeRefresh.isRefreshing = false
-                        binding.progressBar.isVisible = false
-                        binding.textView1.text = "Technology News:"
-                        Log.d("trace", "Articles: $articles")
+            when (savedCountry) {
+                "eg" ->
+                    when (it) {
+                        R.drawable.tech -> c.getTechnoNewsegypt().enqueue(newsCallback("Technology News:"))
+                        R.drawable.health -> c.getHealthNewsegypt().enqueue(newsCallback("Health News"))
+                        R.drawable.sports -> c.getSportNewsegypt().enqueue(newsCallback("Sports News"))
+                        R.drawable.business -> c.getBusinessNewsegypt().enqueue(newsCallback("Business News"))
                     }
-
-                    override fun onFailure(p0: Call<News>, p1: Throwable) {
-                        Log.d("trace", "Error: ${p1.message}")
+                "us" ->
+                    when (it) {
+                        R.drawable.tech -> c.getTechnoNewsus().enqueue(newsCallback("Technology News:"))
+                        R.drawable.health -> c.getHealthNewsus().enqueue(newsCallback("Health News"))
+                        R.drawable.sports -> c.getSportNewsus().enqueue(newsCallback("Sports News"))
+                        R.drawable.business -> c.getBusinessNewsus().enqueue(newsCallback("Business News"))
                     }
-                })
-
-                R.drawable.health -> c.getHealthNews().enqueue(object : Callback<News> {
-                    override fun onResponse(p0: Call<News>, p1: Response<News>) {
-                        val news = p1.body()
-                        val articles = news?.articles!!
-                        articles.removeAll {
-                            it.title == "[Removed]"
-                        }
-                        showNews(articles)
-                        binding.swipeRefresh.isRefreshing = false
-                        binding.progressBar.isVisible = false
-                        binding.textView1.text = "Health News:"
-                        Log.d("trace", "Articles: $articles")
+                "fr" ->
+                    when (it) {
+                        R.drawable.tech -> c.getTechnoNewsfrance().enqueue(newsCallback("Technology News:"))
+                        R.drawable.health -> c.getHealthNewsfrance().enqueue(newsCallback("Health News"))
+                        R.drawable.sports -> c.getSportNewsfrance().enqueue(newsCallback("Sports News"))
+                        R.drawable.business -> c.getBusinessNewsfrance().enqueue(newsCallback("Business News"))
                     }
-
-                    override fun onFailure(p0: Call<News>, p1: Throwable) {
-                        Log.d("trace", "Error: ${p1.message}")
+                "de" ->
+                    when (it) {
+                        R.drawable.tech -> c.getTechnoNewsjermany().enqueue(newsCallback("Technology News:"))
+                        R.drawable.health -> c.getHealthNewsjermany().enqueue(newsCallback("Health News"))
+                        R.drawable.sports -> c.getSportNewsjermany().enqueue(newsCallback("Sports News"))
+                        R.drawable.business -> c.getBusinessNewsjermany().enqueue(newsCallback("Business News"))
                     }
-                })
-
-                R.drawable.sports -> c.getSportNews().enqueue(object : Callback<News> {
-                    override fun onResponse(p0: Call<News>, p1: Response<News>) {
-                        val news = p1.body()
-                        val articles = news?.articles!!
-                        articles.removeAll {
-                            it.title == "[Removed]"
-                        }
-                        showNews(articles)
-                        binding.swipeRefresh.isRefreshing = false
-                        binding.progressBar.isVisible = false
-                        binding.textView1.text = "Sports News:"
-
-                        Log.d("trace", "Articles: $articles")
+                "gb" ->
+                    when (it) {
+                        R.drawable.tech -> c.getTechnoNewsengland().enqueue(newsCallback("Technology News:"))
+                        R.drawable.health -> c.getHealthNewsengland().enqueue(newsCallback("Health News"))
+                        R.drawable.sports -> c.getSportNewsengland().enqueue(newsCallback("Sports News"))
+                        R.drawable.business -> c.getBusinessNewsengland().enqueue(newsCallback("Business News"))
                     }
-
-                    override fun onFailure(p0: Call<News>, p1: Throwable) {
-                        Log.d("trace", "Error: ${p1.message}")
-                    }
-                })
-
-                R.drawable.business -> c.getBusinessNews().enqueue(object : Callback<News> {
-                    override fun onResponse(p0: Call<News>, p1: Response<News>) {
-                        val news = p1.body()
-                        val articles = news?.articles!!
-                        articles.removeAll {
-                            it.title == "[Removed]"
-                        }
-                        showNews(articles)
-                        binding.swipeRefresh.isRefreshing = false
-                        binding.progressBar.isVisible = false
-                        binding.textView1.text = "Business News:"
-
-                        Log.d("trace", "Articles: $articles")
-                    }
-
-                    override fun onFailure(p0: Call<News>, p1: Throwable) {
-                        Log.d("trace", "Error: ${p1.message}")
-                    }
-                })
+                else->c.getTechnoNewsengland().enqueue(newsCallback("Technology News:"))
             }
         }
 
-        c.getGeneralNews().enqueue(object : Callback<News> {
-            override fun onResponse(p0: Call<News>, p1: Response<News>) {
-                val news = p1.body()
+    }
+
+    private fun newsCallback(newsType: String): Callback<News> {
+        return object : Callback<News> {
+            override fun onResponse(call: Call<News>, response: Response<News>) {
+                val news = response.body()
                 val articles = news?.articles!!
-                articles.removeAll {
-                    it.title == "[Removed]"
-                }
+                articles.removeAll { it.title == "[Removed]" }
+                showNews(articles)
+                binding.textView1.text = newsType
                 binding.swipeRefresh.isRefreshing = false
                 binding.progressBar.isVisible = false
                 Log.d("trace", "Articles: $articles")
             }
 
-            override fun onFailure(p0: Call<News>, p1: Throwable) {
-                Log.d("trace", "Error: ${p1.message}")
+            override fun onFailure(call: Call<News>, t: Throwable) {
+                Log.d("trace", "Error: ${t.message}")
             }
-        })
+        }
     }
+
 
     private fun showNews(articles: ArrayList<Article>) {
         val newsAdapter = NewsAdapter(this, articles)
@@ -217,6 +182,7 @@ class HomeFragment : Fragment() {
         val categoriesAdapter = CategoriesAdapter(this, categories)
         binding.categoryRv.adapter = categoriesAdapter
     }
+
 
     private fun loadCategories(): List<Category> {
         // Load categories and news

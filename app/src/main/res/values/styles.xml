@@ -9,7 +9,7 @@
 
     <style name="my_tv">
         <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">28sp</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
 
