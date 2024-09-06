@@ -1,6 +1,7 @@
 package com.training.whatsthenews
 
 import android.os.Bundle
+import androidx.activity.OnBackPressedCallback
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -26,6 +27,16 @@ class MainActivity : AppCompatActivity() {
         if(firebaseAuth.currentUser !=null){
             navController.navigate(R.id.homeFragment)
         }
+
+//        val currentFragment = supportFragmentManager.findFragmentById(R.id.home_fragment)
+//        onBackPressedDispatcher.addCallback(this,object :OnBackPressedCallback(true){
+//            override fun handleOnBackPressed() {
+//                if (currentFragment is HomeFragment){
+//                    finish()
+//                }
+//            }
+//
+//        })
 
     }
 

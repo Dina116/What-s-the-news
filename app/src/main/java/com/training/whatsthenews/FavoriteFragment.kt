@@ -18,6 +18,8 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.ItemTouchHelper
+import androidx.recyclerview.widget.RecyclerView
 import com.training.whatsthenews.databinding.FragmentFavoriteBinding
 
 
@@ -92,6 +94,8 @@ class FavoriteFragment : Fragment() {
         }
 
         viewModel.loadFavoriteArticles()
+
+
     }
 
     // convert the data from List<FavoriteNewsEntity> to List<FavoriteNews> to be sent to the adapter which takes List<FavoriteNews>

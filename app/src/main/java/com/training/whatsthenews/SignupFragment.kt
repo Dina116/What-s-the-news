@@ -31,6 +31,7 @@ class SignupFragment : Fragment() {
 
 
         firebaseAuth = FirebaseAuth.getInstance()
+
         return binding.root
     }
 
@@ -63,7 +64,7 @@ class SignupFragment : Fragment() {
                 }
 
                 if (!isValidPassword(pass)) {
-                    binding.passET.error = "Invalid password format"
+                    binding.passET.error = "Password should contain capital , small letters and numberst"
                     valid = false
                 } else {
                     binding.passET.error = null
@@ -102,7 +103,7 @@ class SignupFragment : Fragment() {
                                 }
                             }
                     } else {
-                        Toast.makeText(mContext, "Password is not matching", Toast.LENGTH_SHORT)
+                        Toast.makeText(mContext, "Password not match", Toast.LENGTH_SHORT)
                             .show()
                     }
                 } else {

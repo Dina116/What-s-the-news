@@ -4,11 +4,13 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 
+
 interface NewsCallable {
 
 
     //health
-    @GET("/v2/top-headlines?country=eg&category=health&apiKey=08094a62d7d5454fa4fc051ae47ab52c")
+   @GET("/v2/top-headlines?country=eg&category=health&apiKey=08094a62d7d5454fa4fc051ae47ab52c")
+
     fun getHealthNewsegypt(): Call<News>
 
     @GET("/v2/top-headlines?country=de&category=health&apiKey=08094a62d7d5454fa4fc051ae47ab52c")
@@ -73,6 +75,7 @@ interface NewsCallable {
 
     @GET("/v2/top-headlines?country=gb&category=technology&apiKey=08094a62d7d5454fa4fc051ae47ab52c")
     fun getTechnoNewsengland(): Call<News>
+
 
 
 }

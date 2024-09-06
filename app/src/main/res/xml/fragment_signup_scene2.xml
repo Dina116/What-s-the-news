@@ -41,9 +41,3 @@
             />
     </ConstraintSet>
 </MotionScene>
-    <!--       <KeyFrameSet>-->
-    <!--&lt;!&ndash;           <KeyPosition&ndash;&gt;-->
-    <!--&lt;!&ndash;               motion:motionTarget="@+id/tv_welcome"&ndash;&gt;-->
-    <!--&lt;!&ndash;               motion:framePosition="31"&ndash;&gt;-->
-    <!--&lt;!&ndash;               motion:keyPositionType="deltaRelative" />&ndash;&gt;-->
-    <!--     </KeyFrameSet>&ndash;&gt;-->

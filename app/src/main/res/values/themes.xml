@@ -3,7 +3,7 @@
     <style name="Base.Theme.WhatsTheNews" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="colorPrimary">#A9A9A9</item>
+        <item name="colorPrimary">#C7DEF0</item>
         <item name="colorSecondary">#2196F3</item>
         <item name="colorPrimaryVariant">#A9A9A9</item>
     </style>

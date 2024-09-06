@@ -16,6 +16,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
 import com.training.whatsthenews.databinding.ActivitySettingBinding
+import retrofit2.Callback
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -59,6 +60,8 @@ class setting : AppCompatActivity() {
 
             // Save to SharedPreferences as well
             val sharedPref = getSharedPreferences("newsAppPref", Context.MODE_PRIVATE)
+
+
             with(sharedPref.edit()) {
                 putString("selectedCountry", selectedCountry)
                 apply()
