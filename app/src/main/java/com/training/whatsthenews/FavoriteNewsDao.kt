@@ -17,4 +17,5 @@ interface FavoriteNewsDao {
 
     @Query("SELECT * FROM favorite_news")
     fun getFavoriteNews(): LiveData<List<FavoriteNewsEntity>>
+
 }

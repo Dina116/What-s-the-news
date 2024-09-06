@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
+import com.google.firebase.firestore.dataObjects
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.training.whatsthenews.databinding.ArticleListItemBinding
@@ -39,11 +40,11 @@ class NewsAdapter(val fragment: Fragment, val articles: ArrayList<Article>) :
 
         val url = articles[position].uniformResourceLocator
 
-
+        val db = Firebase.firestore
         // adding favorites news into fire_store database without duplicating and the name of the document is the title of news
         holder.binding.favoriteIv.setOnClickListener {
-            val db = Firebase.firestore
             val news = Article(articles[position].title, url, articles[position].urlToImage)
+
             db
                 .collection("Favorites News").document(articles[position].title)
                 .set(news)
@@ -73,5 +74,7 @@ class NewsAdapter(val fragment: Fragment, val articles: ArrayList<Article>) :
                 .setText(url)
                 .startChooser()
         }
+
+
     }
 }

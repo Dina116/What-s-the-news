@@ -12,32 +12,29 @@ import com.google.firebase.auth.FirebaseAuth
 import com.training.whatsthenews.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var firebaseAuth:FirebaseAuth
+    private lateinit var firebaseAuth: FirebaseAuth
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         firebaseAuth = FirebaseAuth.getInstance()
-        binding=ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
 
-        if(firebaseAuth.currentUser !=null){
+        if (firebaseAuth.currentUser != null) {
             navController.navigate(R.id.homeFragment)
         }
 
-//        val currentFragment = supportFragmentManager.findFragmentById(R.id.home_fragment)
-//        onBackPressedDispatcher.addCallback(this,object :OnBackPressedCallback(true){
-//            override fun handleOnBackPressed() {
-//                if (currentFragment is HomeFragment){
-//                    finish()
-//                }
-//            }
-//
-//        })
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                 finish()
 
+            }
+
+        })
     }
-
 }

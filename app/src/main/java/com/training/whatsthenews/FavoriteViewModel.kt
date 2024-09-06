@@ -2,6 +2,7 @@ package com.training.whatsthenews
 
 import android.app.Application
 import android.util.Log
+import android.widget.Toast
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
@@ -51,10 +52,10 @@ class FavoriteViewModel(application: Application) : AndroidViewModel(application
     fun getOfflineFavoriteArticles(): LiveData<List<FavoriteNewsEntity>> {
         return favoriteNewsDao.getFavoriteNews()
     }
-
+    val db = Firebase.firestore
     fun deleteAllFavorites() {
         viewModelScope.launch {
-            val db = Firebase.firestore
+
 
             try {
                 // Fetch all documents from Firestore
@@ -79,6 +80,7 @@ class FavoriteViewModel(application: Application) : AndroidViewModel(application
         }
 
     }
+
 
     fun deleteFromDB(lifecycleOwner: LifecycleOwner) {
 
